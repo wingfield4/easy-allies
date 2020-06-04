@@ -1,0 +1,22 @@
+{
+  "name": "easy-allies-data",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "David Wingfield",
+  "license": "MIT",
+  "dependencies": {
+    "apn": "^2.2.0",
+    "axios": "^0.18.0",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^7.0.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "moment": "^2.24.0",
+    "mysql2": "^1.6.5",
+    "oauth-1.0a": "^2.2.5",
+    "rss-parser": "^3.7.0",
+    "sequelize": "^5.2.6"
+  }
+}

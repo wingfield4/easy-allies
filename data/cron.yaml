@@ -1,0 +1,19 @@
+cron:
+- description: "Get recent Youtube uploads"
+  url: /api/v1/jobs/getRecentUploads
+  schedule: every 10 minutes
+- description: "Update Easy Allies Playlists"
+  url: /api/v1/jobs/updatePlaylists/UCZrxXp1reP8E353rZsB3jaA
+  schedule: every day 9:30
+- description: "Update Easy Allies Plays Playlists"
+  url: /api/v1/jobs/updatePlaylists/UCL7O6Onu0lBcwZ8t-YMgGcw
+  schedule: every day 10:00
+- description: "Update Twitch Status"
+  url: /api/v1/jobs/updateTwitchStatus
+  schedule: every 2 minutes
+- description: "Update Tweets"
+  url: /api/v1/jobs/updateTweets
+  schedule: every 5 minutes
+- description: "Update Podcasts"
+  url: /api/v1/jobs/updatePodcasts
+  schedule: every 10 minutes
