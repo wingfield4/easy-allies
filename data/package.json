@@ -13,7 +13,7 @@
     "koa-body": "^4.1.0",
     "koa-router": "^7.4.0",
     "koa2-cors": "^2.0.6",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mysql2": "^1.6.5",
     "oauth-1.0a": "^2.2.5",
     "rss-parser": "^3.7.0",
